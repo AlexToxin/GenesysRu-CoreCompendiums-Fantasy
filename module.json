@@ -1,0 +1,72 @@
+{
+	"name": "GenesysRu-BaseCompendiums-Fantasy",
+	"title": "Genesys Base Compendiums Fantasy (RU)",
+	"description": "Данные базы Genesys сеттинга Фэнтези",
+	"author": "AlexToxin",
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "0.8.8",
+	"url": "https://github.com/AlexToxin/GenesysRu-BaseCompendiums-Fantasy",
+	"manifest": "https://raw.githubusercontent.com/AlexToxin/GenesysRu-BaseCompendiums-Fantasy/master/module.json",
+	"download": "https://github.com/AlexToxin/GenesysRu-BaseCompendiums-Fantasy/archive/refs/heads/master.zip",
+	"packs": [
+		{
+			"label": "База (Фэнтези) - Архетипы",
+			"entity": "Item",
+			"name": "baza-fentezi-arhetipy",
+			"path": "packs/baza-fentezi-arhetipy.db",
+			"system": "starwarsffg"
+		  },
+		  {
+			"label": "База (Фэнтези) - Оружие",
+			"entity": "Item",
+			"name": "baza-fentezi-oruzhie",
+			"path": "packs/baza-fentezi-oruzhie.db",
+			"system": "starwarsffg"
+		  },
+		  {
+			"label": "База (Фэнтези) - Броня",
+			"entity": "Item",
+			"name": "baza-fentezi-bronya",
+			"path": "packs/baza-fentezi-bronya.db",
+			"system": "starwarsffg"
+		  },
+		  {
+			"label": "База (Фэнтези) - Экипировка",
+			"entity": "Item",
+			"name": "baza-fentezi-ekipirovka",
+			"path": "packs/baza-fentezi-ekipirovka.db",
+			"system": "starwarsffg"
+		  },
+		  {
+			"label": "База (Фэнтези) - Противники",
+			"entity": "Actor",
+			"name": "baza-fentezi-protivniki",
+			"path": "packs/baza-fentezi-protivniki.db",
+			"system": "starwarsffg"
+		  }
+	],
+	"dependencies": [
+		{
+			"name": "starwarsffg",
+			"type": "system"
+		},
+		{
+			"name": "GenesysRu-BaseCompendiums"
+		}
+	],
+	"authors": [
+		{
+			"name": "AlexToxin"
+		},
+		{
+			"name": "Florintini"
+		},
+		{
+			"name": "Blackburn"
+		},
+		{
+			"name": "Kappa"
+		}
+	]
+}
